@@ -187,15 +187,13 @@ p {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
-.footer h2 {
-    font-size: 20px;
-}
-
+/*tweaked footer after removing h2*/
 .footer {
-    padding: 30px;
+    padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
     text-align: center;
+    margin-bottom: 20px;
 }
 
