@@ -68,7 +68,7 @@ p {
     float: right;
     margin-left: 25px;
 }
-
+/*changed width to 76% to close gap between benefits*/
 .content {
     width: 76%;
     display: inline-block;
