@@ -3,10 +3,25 @@
     padding: 0;
     margin: 0;
 }
-
-body {
-    background-color: #d9dcd6;
+a {
+    color: #ffffff;
+    text-decoration: none;
 }
+
+p {
+    font-size: 16px;
+}
+
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+
 
 .header {
     padding: 20px;
@@ -40,25 +55,18 @@ body {
     display: inline-block;
     margin-left: 25px;
 }
-
-a {
-    color: #ffffff;
-    text-decoration: none;
+body {
+    background-color: #d9dcd6;
+}
+.background-image {
+    height: 1250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
 }
 
-p {
-    font-size: 16px;
-}
-
-.float-left {
-    float: left;
-    margin-right: 25px;
-}
-
-.float-right {
-    float: right;
-    margin-left: 25px;
-}
 /*global / generic items at the top of the file*/
 /*reordered items to mimic the html file order*/
 .search-engine-optimization {
@@ -113,14 +121,6 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
-}
-.background-image {
-    height: 1250px;
-    width: 100%;
-    margin-bottom: 25px;
-    background-image: url("../images/digital-marketing-meeting.jpg");
-    background-size: cover;
-    background-position: center;
 }
 
 /*changed width to 76% to close gap between benefits*/
