@@ -12,11 +12,16 @@
 
 ## Installation
 
-NA - Website will be hosted on Github
+- no installation required
+- Website hosted on Github Pages
+
+- https://benjistealth.github.io/refactoring_challenge_module1/
 
 ## Usage
 
-- Just visit the page on Github pages to view and test links
+- Just visit the page on Github pages to view the page and test any links
+
+- https://benjistealth.github.io/refactoring_challenge_module1/
 
 ## Credits
 
@@ -41,4 +46,4 @@ NA
 
 ## Tests
 
-NA
+Manual - Exploratory
