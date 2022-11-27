@@ -22,7 +22,6 @@ p {
     margin-left: 25px;
 }
 
-
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -34,6 +33,7 @@ p {
     display: inline-block;
     font-size: 48px;
 }
+
 /*made the grey slightly darker to match the demo image more closely*/
 .header h1 .seo {
     color: #bdbebc;
@@ -59,6 +59,7 @@ p {
 body {
     background-color: #d9dcd6;
 }
+
 /*renamed this from "hero" as that seemed weird*/
 .background-image {
     height: 1250px;
@@ -71,32 +72,6 @@ body {
 
 /*global / generic items at the top of the file*/
 /*reordered items to mimic the html file order*/
-.search-engine-optimization {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.online-reputation-management {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
-
-.social-media-marketing {
-    margin-bottom: 20px;
-    padding: 50px;
-    height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
-    color: #ffffff;
-}
 /*refactored to remove duplication*/
 .content {
     width: 76%;
@@ -111,6 +86,16 @@ body {
 
 .content img {
     max-height: 200px;
+}
+
+/*combined these on one line to remove duplication*/
+.search-engine-optimization, .online-reputation-management, .social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
 }
 
 /*changed width to 76% to close gap between benefits*/
