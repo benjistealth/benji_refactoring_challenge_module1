@@ -104,17 +104,16 @@ body {
     margin-left: 20px;
 }
 
-.content img {
-    max-height: 200px;
-}
-
 .content h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
-/*changed width to 76% to close gap between benefits*/
+.content img {
+    max-height: 200px;
+}
 
+/*changed width to 76% to close gap between benefits*/
 .benefits-all {
     margin-right: 20px;
     margin-bottom: 32px;
