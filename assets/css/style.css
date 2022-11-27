@@ -55,9 +55,11 @@ p {
     display: inline-block;
     margin-left: 25px;
 }
+
 body {
     background-color: #d9dcd6;
 }
+
 .background-image {
     height: 1250px;
     width: 100%;
