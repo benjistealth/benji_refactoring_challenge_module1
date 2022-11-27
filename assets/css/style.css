@@ -112,6 +112,7 @@ body {
     background-color: #2589bd;
 }
 
+/*refactored to remove duplication*/
 .benefits-all h3 {
     margin-bottom: 10px;
     text-align: center;
