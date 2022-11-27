@@ -6,8 +6,6 @@
 - To refactor an existing simple website to make it comply with accessibility guidelines
 - Acceptance criteria can be found in the repository /assets/reference/acceptance_criteria
 
-## Table of Contents (Optional)
-
 ## Installation
 
 - no installation required
